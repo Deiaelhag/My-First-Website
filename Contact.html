@@ -10,35 +10,42 @@
 <body>
     <nav>
         <a href="index.html">Home</a>
-        <br />
+
         <a href="About.html">About</a>
-        <br />
+
         <a href="Services and Products.html">Services</a>
-        <br />
+
         <a href="Gallery and Protofolio.html">Gallery</a>
-        <br />
+
         <a href="Contact.html">Contact</a>
     </nav>
-    <h1>Contact Us</h1>
+    <h1 id="text">Contact Us</h1>
 
-    <fieldset>
-        <form>
-            <label for="name">Name:</label>
-            
-            <input id="name" type="text" required />
-            <br /><br />
 
-            <label for="email">Email:</label>
-            
-            <input id="email" type="email" required />
-            <br /><br />
+    <form onsubmit="showMessage()">
+        <label for="name">Name:</label>
 
-            <label for="message">Your Message:</label>
-            <br />
-            <textarea id="message" rows="10" cols="50" required></textarea>
-            <br /><br />
-            <button type="submit" style="font-size:20px">Send</button>
-        </form>
-    </fieldset>
+        <input id="name" type="text" required /><!--the required works only when uses the button"submit"-->
+        <br /><br />
+
+        <label for="email">Email:</label>
+
+        <input id="email" type="email" required />
+        <br /><br />
+
+        <label for="message">Your Message:</label>
+        <br />
+        <textarea id="message" rows="7" cols="35" required></textarea>
+        <br /><br />
+        <button type="submit" style="font-size:20px">Send</button>
+    </form>
+    <br /><br />
+    <button onclick="changeColor()">Change Color</button>
+    <br /><br />
+    <button onclick="darkMood()">Dark Mood</button>
+
+    <button onclick="reloadPage()" style="float:right">Reload Page</button>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -7,20 +7,38 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body onload="showMessage()">
     <nav>
         <a href="index.html">Home</a>
-        <br />
+
         <a href="About.html">About</a>
-        <br />
+
         <a href="Services and Products.html">Services</a>
-        <br />
+
         <a href="Gallery and Protofolio.html">Gallery</a>
-        <br />
+
         <a href="Contact.html">Contact</a>
     </nav>
-    <h1>Welcome to my website</h1>
+    <h1 id="text">Welcome to my Website</h1>
+
     <p>This is a simple website using HTML.</p>
+
+    <button onclick="changeTitle1()">Change title</button>
+    <br /><br />
+    <button onclick="changeTitle2()">Unchange title</button>
+    <br /><br />
+    <button onclick="changeColor()">Change Color</button>
+    <br /><br />
+    <button onclick="darkMood()">Dark Mood</button>
+    <br /><br />
+    <p id="demo">This text can disappear</p>
+    <button onclick="hideText()">Hide text</button>
+    <br /><br />
+    <button onclick="showText()">Show text</button>
+
+    <button onclick="reloadPage()" style="float:right">Reload Page</button>
     <!-- Later, you can add a navigation menu here -->
+
+    <script src="script.js"></script>
 </body>
 </html>
