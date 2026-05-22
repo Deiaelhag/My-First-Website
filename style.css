@@ -33,10 +33,11 @@ img{
 /*Responsive design for phone*/
 @media(max-width:600px){
     nav{
+        font-size:14px;
         padding:15px;
     }
     nav a{
-        font-size:50px;
+        font-size:14px;
         margin:10px
     }
     img{
