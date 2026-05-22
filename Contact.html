@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Character encoding-->
     <meta charset="utf-8" />
+    <!--Responsive design for phone-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>My Website</title>
+    <!--External CSS file-->
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <!--Navigation bar-->
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html">🏠 Home</a>
 
-        <a href="About.html">About</a>
+        <a href="About.html">👤About</a>
 
-        <a href="Services and Products.html">Services</a>
+        <a href="Services and Products.html">🛠️Services</a>
 
-        <a href="Gallery and Protofolio.html">Gallery</a>
+        <a href="Gallery and Protofolio.html">🖼️Gallery</a>
 
-        <a href="Contact.html">Contact</a>
+        <a href="Contact.html">✉️Contact</a>
     </nav>
     <h1 id="text">Contact Us</h1>
 
-
-    <form onsubmit="showWelcomeMessage()">
+    <!--Contact form-->
+    <form onsubmit="showMessage()">
         <label for="name">Name:</label>
-
         <input id="name" type="text" required /><!--the required works only when uses the button"submit"-->
         <br /><br />
 
+        <!--Inputs-->
         <label for="email">Email:</label>
-
         <input id="email" type="email" required />
         <br /><br />
 
         <label for="message">Your Message:</label>
         <br />
-        <textarea id="message" rows="7" cols="35" required></textarea>
+        <textarea id="message" rows="7" cols="35" required></textarea><!--Message box-->
         <br /><br />
-        <button type="submit" style="font-size:20px">Send</button>
+
+        <button type="submit" style="font-size:20px">Send</button><!--Button-->
     </form>
     <br /><br />
+    <!--Buttons-->
     <button onclick="changeColor()">Change Color</button>
     <br /><br />
     <button onclick="darkMood()">Dark Mood</button>
 
     <button onclick="reloadPage()" style="float:right">Reload Page</button>
 
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <!--External JavaScript file-->
     <script src="script.js"></script>
 </body>
 </html>
