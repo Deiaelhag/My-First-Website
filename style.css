@@ -33,14 +33,15 @@ img{
 /*Responsive design for phone*/
 @media(max-width:600px){
     nav{
-        font-size:12px;
+        padding:15px
     }
-    nav a{
-        font-size:12px;
+    vav a{
+        font-size:14px;
+        margin:10px
     }
     img{
-        width:100px;
-        height:100px;
+        width:110px;
+        height:110px;
     }
 }/*Contact form styling*/
 form {
