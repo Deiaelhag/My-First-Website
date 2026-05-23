@@ -9,11 +9,13 @@ function changeTitle() {
     document.getElementById("text").innerHTML = "The title has change";
 }
 function unChangeTitle() {
-    document.getElementById("text").innerHTML = "My First Website";
+    document.getElementById("text").innerHTML = "Welcome To My Website";
 }
 //Change background color
 function changeColor() {
     document.body.style.backgroundColor = "lightgreen";
+    document.body.style.color = "black";
+    document.getElementById("text").style.color = "black";
 }
 //Enable dark moode
 function darkMood() {

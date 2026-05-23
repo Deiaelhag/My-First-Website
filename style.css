@@ -17,7 +17,7 @@ nav a{
     margin:30px;
 }
 /*Links of navigations effects*/
-a:hover{
+nav a:hover{
     color:yellow;
 }
 /*Lable hover effects*/
@@ -32,8 +32,8 @@ img{
 }
 /*Responsive design for phone*/
 @media(max-width:600px){
-    nav{
-        padding:15px;
+    nav {
+        padding: 15px
     }
     nav a{
         font-size:10px;
@@ -43,8 +43,7 @@ img{
         width:100px;
         height:100px;
     }
-}
-/*Contact form styling*/
+}/*Contact form styling*/
 form {
     background-color: lightslategrey;
     padding: 20px;
@@ -52,6 +51,7 @@ form {
     margin: auto;
     border-radius: 10px;
 }
+/*buttons styling*/
 button{
     padding:10px;
     background-color:darkblue;
@@ -60,13 +60,26 @@ button{
     border-radius:5px;
     width:150px;
     height:auto;
-
     box-shadow:4px 4px 10px;
     transition:0.5s;
 }
-/*Buttons Hover Effects*/
-button:hover{
-    background-color:blue;
+/*buttons hover effects*/
+button:hover {
+    background-color: blue;
+}
+/*Learn More button styling*/
+.learnMore {
+    padding: 10px 36px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 4px 4px 10px;
+    transition: 0.5s;
+}
+/*Hover effect for Learn More button*/
+.learnMore:hover {
+    background-color: blue;
 }
 footer{
     text-align:center;
