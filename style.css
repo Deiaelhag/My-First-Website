@@ -39,7 +39,10 @@ img{
         font-size:10px;
         margin:5px;
     }
-    img{
+    .learnMore {
+        padding: 8px 34px;
+    }
+        img{
         width:100px;
         height:100px;
     }
